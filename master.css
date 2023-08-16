@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+html,body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    width: auto;
+    height: 70px;
+    background: rgb(11, 11, 100);
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+   
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.nasa img{
+    width: 120px;
+    height: 70px;
+}
+
+.div{
+    color: rgb(143, 64, 64);
+    font-size: 1.5rem;
+    font-style: condensed ;
+
+}
+input{
+    background: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-style: condensed;
+    height: 40px;
+    width: 80px;
+}
+.main{
+    width: auto;
+    height: 800px;
+    background: white;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 75%  ;
+    
+} 
+.box1{
+    margin: auto 0;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    
+}
+.box3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.rocket{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    
+}
+.rocket img{
+    height: 150px;
+    width: 150px;
+    margin: auto auto;
+}
+.rocket-1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.telescope{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    background-size: 40px 40px;
+}
+.telescope img{
+    height: 150px;
+    width: 150px;
+    margin: auto auto;
+}
+.telescope-1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+.luna{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    background-size: 40px 40px;
+}
+.luna img{
+    height: 150px;
+    width: 150px;
+    margin: auto auto;
+}
+.luna-1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+.medal{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    background-size: 40px 40px;
+}
+.medal img{
+    height: 150px;
+    width: 150px;
+    margin: auto auto;
+}
+.medal-1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+.box4 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+.box4{
+margin: auto ;
+}
+
+
+.footer{
+    width: auto;
+    height: 400px;
+    background: rgb(11, 11, 100);
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+.href{
+    height: 30px;
+    width: 100px;
+    background-color: #f8f6f6;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+a{
+    
+    margin: 40px 20px 40px 40px;
+    font-size: 30px;
+}
+
+
+/* Основные стили*/
+
+/*Слайдер*/
+.slick-slider{}
+/*Ограничивающая оболочка*/
+.slick-list{
+    overflow: hidden;
+}
+/*Лента слайдов*/
+.slick-track{
+    display: flex;
+    align-items: center;
+}
+
+
+/*Слайд*/
+.slick-slide{}
+/*Слайд активный*/
+.slick-slide.slick-active{}
+/*Слайд Основной*/
+.slick-slide.slick-current{}
+/*Слайд по центру*/
+.slick-slide.slick-center{}
+
+/*Стрелка*/
+.slick-arrow{}
+/*Стрелка вправо*/
+.slick-arrow.slick-prev{}
+/*Стрелка влево*/
+.slick-arrow.slick-next{}
+/*Стрелка не активная*/
+.slick-arrow.slick-disabled{}
+
+
+/*Точки*/
+.slick-dots{}
+.slick-dots.li{}
+.slick-dots.button{}
+
+/*Конкретный слайдер*/
+.slider{
+    position: relative;
+    padding: 0px 60px;
+    border-radius: 20%;
+}
+.slider .slick-arrow{
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10; 
+  font-size: 0; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    
+}  
+.slider .slick-arrow.slick-next{
+    right: 0;
+    
+}
+.slider .slick-arrow.slick-disabled{
+    opacity: 0.2;
+}
+    
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+   
+}
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    border-radius: 50%;
+}
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+    
+.slider_item{
+    opacity: 0.4;
+    text-align: center;
+}
+.slider_item.slick-center{
+    opacity: 1;
+    text-align: center;
+}
+
+.sliderbig{
+     
+}
+
+.sliderbig_item{
+    text-align: center;}
